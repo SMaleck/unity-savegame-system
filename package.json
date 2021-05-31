@@ -1,0 +1,20 @@
+{
+    "name": "com.smaleck.savegame-system",
+    "version": "1.0.0",
+    "displayName": "SavegameSystem",
+    "description": "Allows serialization, compression and migration of a JSON-based savegame.",
+    "unity": "2019.1",
+    "unityRelease": "0b5",
+    "dependencies": {
+        "com.unity.test-framework": "^1.1.24"
+    },
+    "keywords": [
+        "savegame",
+        "migration"
+    ],
+    "author": {
+        "name": "Sebastian Maleck",
+        "email": "s.maleck@live.de",
+        "url": "https://github.com/SMaleck/unity-savegame-system"
+    }
+}
