@@ -1,0 +1,18 @@
+{
+    "name": "SMaleck.SavegameSystem.Editor",
+    "rootNamespace": "SavegameSystem",
+    "references": [
+        "GUID:6d50ba2e0b4687d4baaa9079a08f030d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
