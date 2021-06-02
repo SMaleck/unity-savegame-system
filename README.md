@@ -15,7 +15,7 @@ To use this package in your Unity project, you have to manually add it to you `m
 ```json
 {
   "dependencies": {
-    "com.smaleck.savegame-system": "git://github.com/SMaleck/unity-savegame-system.git#v1.0.0"
+    "com.smaleck.savegame-system": "git://github.com/SMaleck/unity-savegame-system.git#v0.1.0"
   }
 }
 ```
@@ -24,7 +24,7 @@ To use this package in your Unity project, you have to manually add it to you `m
 ```json
 {
   "dependencies": {
-    "com.smaleck.savegame-system": "git://github.com/SMaleck/unity-savegame-system.git#v1.0.0"
+    "com.smaleck.savegame-system": "git://github.com/SMaleck/unity-savegame-system.git#v0.1.0"
   },
   "scopedRegistries": [
       {
