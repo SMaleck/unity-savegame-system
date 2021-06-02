@@ -14,8 +14,8 @@ namespace SavegameSystem.Storage.Migration
 
         public MigrationProcessor(
             ISavegameLogger logger,
-            IMigrationDebugger migrationDebugger,
-            List<ISavegameMigration> migrations)
+            List<ISavegameMigration> migrations,
+            IMigrationDebugger migrationDebugger = null)
         {
             _logger = logger;
             _migrationDebugger = migrationDebugger;
@@ -38,9 +38,9 @@ namespace SavegameSystem.Storage.Migration
                         continue;
                     }
 
-                    _migrationDebugger.BeforeMigration(version, migration.Version, savegame);
+                    _migrationDebugger?.BeforeMigration(version, migration.Version, savegame);
                     Migrate(savegame, migration);
-                    _migrationDebugger.AfterMigration(version, migration.Version, savegame);
+                    _migrationDebugger?.AfterMigration(version, migration.Version, savegame);
                 }
 
                 return savegame.ToString();
